@@ -1,0 +1,32 @@
+# -- START HERE --
+directory.default.set = /(YOUR DIRECTORY/(YOUR DIRECTORY)/
+encoding.add = UTF-8
+encryption = allow_incoming,try_outgoing,enable_retry
+execute.nothrow = chmod,777,/(YOUR DIRECTORY/(YOURUSER NAME)/.config/rpc.socket
+execute.nothrow = chmod,777,/(YOUR DIRECTORY/(YOURUSER NAME)/.sessions
+network.port_random.set = yes
+network.port_range.set = 2448-3948 ***(Change ports to suit needs)***
+network.scgi.open_port = localhost:2448
+network.tos.set = throughput
+pieces.hash.on_completion.set = no
+protocol.pex.set = no
+schedule = watch_directory,5,5,load.start=/(YOUR DIRECTORY/(YOUR DIRECTORY/rwatch/*.torrent
+session.path.set = /(YOUR DIRECTORY/(YOUR DIRECTORY/.sessions/
+min_peers = 250
+max_peers = 400
+min_peers_seed = -1
+max_peers_seed = -1
+max_uploads = 200
+download_rate = 0
+upload_rate = 0
+use_udp_trackers = yes
+dht = disable
+peer_exchange = no
+pieces.memory.max.set = 6G
+pieces.preload.type.set = 1
+port_open = yes
+trackers.numwant.set = 400
+network.max_open_files.set = 65535
+network.max_open_sockets.set = 65535
+system.file.allocate.set = yes
+network.tos.set = throughput
