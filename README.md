@@ -33,4 +33,4 @@ mv -f sysctl.conf /etc/
 
 sysctl -P or reboot.
 
-Alternatively just copy past systcl into your /etc/sysctl using Nano, vim etc.
+Alternatively just copy past systcl into your /etc/sysctl.conf using Nano, vim etc.
