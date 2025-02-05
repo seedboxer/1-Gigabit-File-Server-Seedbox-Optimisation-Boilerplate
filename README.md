@@ -28,3 +28,9 @@ This project provides an optimized configuration for running a high-performance 
 ```bash
 git clone [https://github.com/seedboxer/1-Gigabit-File-Server-Seedbox-Optimisation-Boilerplate.git](https://github.com/seedboxer/1-Gigabit-File-Server-Seedbox-Optimisation-Boilerplate.git)
 cd 1-Gigabit-File-Server-Seedbox-Optimisation-Boilerplate
+
+mv -f sysctl.conf /etc/
+
+sysctl -P or reboot.
+
+Alternatively just copy past systcl into your /etc/sysctl using Nano, vim etc.
