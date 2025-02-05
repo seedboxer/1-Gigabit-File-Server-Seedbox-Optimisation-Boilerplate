@@ -10,7 +10,7 @@ This project provides an optimized configuration for running a high-performance 
 * **Disk I/O Optimization:** Configurations to handle high read/write speeds.
 * **Seeder-Focused:** Ideal for running a seedbox with minimal performance impact.
 * **Easy Deployment:** Pre-configured settings for quick and hassle-free setup.
-* **ruTorrent Optimization:** Includes optimized settings to make ruTorrent super fast.
+* **ruTorrent Optimization:** Includes optimized settings to make ruTorrent super fast. Take the settings here and use in other clients via manual entry.
 
 ⚡ **Performance Improvements**
 
