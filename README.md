@@ -1,10 +1,10 @@
-# 🚀 1-Gigabit File Server & Seedbox Optimization Boilerplate
+# 🚀 1-Gigabit & Plus File Server & Seedbox Optimization Boilerplate
 
-This project provides an optimized configuration for running a high-performance file server and seedbox on a 1-Gigabit network. It includes system tweaks, networking optimizations, and application settings to maximize speed, efficiency, and reliability.
+This project provides an optimized configuration for running a high-performance file server and seedbox on a 1-Gigabit Plus network. It includes system tweaks, networking optimizations, and application settings to maximize speed, efficiency, and reliability.
 
 🔥 **Why Use This?**
 
-* **Optimized for Gigabit Speeds:** Fine-tuned configurations ensure you get the most out of your 1Gbps connection.
+* **Optimized for Gigabit Plus Speeds:** Fine-tuned configurations ensure you get the most out of your 1Gbps Plus connection.
 * **Low System Overhead:** Reduces CPU & RAM usage for efficient operation.
 * **Network Enhancements:** TCP/IP stack tuning for high-speed transfers.
 * **Disk I/O Optimization:** Configurations to handle high read/write speeds.
